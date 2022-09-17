@@ -1,0 +1,8 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/Robot_FSM
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/Robot_FSM -lRobot_FSM
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += Robot_FSM
+COMPONENT_LDFRAGMENTS += 
+component-Robot_FSM-build: 

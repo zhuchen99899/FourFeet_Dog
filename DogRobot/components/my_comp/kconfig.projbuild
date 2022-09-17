@@ -1,0 +1,13 @@
+menu "MY_COMP"
+config MY_COMP_ENABLE
+bool "Enable my_comp"
+default "y"
+endmenu
+
+"
+这段代码的作用，是在menuconfig主菜单下添加一个我们自定义的组件MY_COMP，
+在这个组件中有一个宏MY_COMP_ENABLE，它的默认值为“y”（意思就是选中），
+将宏判断写在主函数所在的文件中。
+通过这样的方式，我们就可以配置和裁剪我们的工程，这将非常有利于我们的开发工作，
+在ESP32自带的组件中，我们可以看到很多这样的文件。
+"

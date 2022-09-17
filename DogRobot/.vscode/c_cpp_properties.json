@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/zc/ESPRESSIF/ESP32/esp-idf/components/esp_common/include",
+                "/home/zc/ESPRESSIF/ESP32/esp-idf/components",
+                "/home/zc/ESPRESSIF/ESP32/esp-idf/components/driver/include",
+                "/home/zc/esp_code/esp32/DogRobot/protocol/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
